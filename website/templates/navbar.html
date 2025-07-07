@@ -4,22 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Header</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-..." crossorigin="anonymous">
 </head>
-</style>
 <body>
-  <div class="container my-5">
-    <div class="row">
-        <div class="col-md-8">
-            <p class="h2"><span><strong>This First Heading</strong></span> <span class="text-secondary"><strong>Will Catch Your Eye</strong></span></p>
-            
-            <p class="fs-5">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Prasent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> 
-        </div>
-        <div class="col-md-4">
-            <img src="assets/img/1.jpg" class="rounded-circle img-fluid" alt="..." style="max-width: 300px;">
-        </div>
+    <nav class="navbar navbar-expand bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-secondary" href="#">Start Bootstrap</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-secondary active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-</div>
+  </div>
+</nav>
 </body>
 </html>
